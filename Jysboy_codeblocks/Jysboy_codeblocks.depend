@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1557948219 source:/home/pi/codeblocks/Jyskboy/buttons.cxx
+	<iostream>
+	"buttons.h"
+	<sr595.h>
+	<wiringPi.h>
+	<sys/time.h>
+	<unistd.h>
+
+1558636777 /home/pi/codeblocks/Jyskboy/buttons.h
+	<sr595.h>
+	<iostream>
+
+1580049707 source:/home/pi/codeblocks/Jyskboy/champ.cxx
+	<iostream>
+	"champ.h"
+	<vector>
+	"soundmanager.h"
+	"setup_sprites.h"
+	"render.h"
+	"environment.h"
+	<cmath>
+	<assert.h>
+	<math.h>
+	"physics.h"
+	<cstdlib>
+
+1578736753 /home/pi/codeblocks/Jyskboy/champ.h
+	"buttons.h"
+	<iostream>
+	<vector>
+	"sprite_objects.h"
+	"physics.h"
+
+1559995740 /home/pi/codeblocks/Jyskboy/sprite_objects.h
+	<iostream>
+	<vector>
+
+1555430069 /home/pi/codeblocks/Jyskboy/soundmanager.h
+	<vector>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_mixer.h>
+
+1560277772 source:/home/pi/codeblocks/Jyskboy/main.cxx
+	<iostream>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<linux/fb.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<vector>
+	"render.h"
+	"champ.h"
+	"sprite_objects.h"
+	"setup_sprites.h"
+	"buttons.h"
+	"soundmanager.h"
+	<wiringPi.h>
+	"environment.h"
+	"game.h"
+
+1579111646 /home/pi/codeblocks/Jyskboy/render.h
+	<iostream>
+	"champ.h"
+	"enemy.h"
+
+1560001324 /home/pi/codeblocks/Jyskboy/setup_sprites.h
+	<iostream>
+	"sprite_objects.h"
+	<vector>
+	"render.h"
+
+1580049341 source:/home/pi/codeblocks/Jyskboy/render.cxx
+	<iostream>
+	"render.h"
+	<vector>
+	"setup_sprites.h"
+	"environment.h"
+	<algorithm>
+	<cmath>
+	<math.h>
+
+1580557066 source:/home/pi/codeblocks/Jyskboy/setup_sprites.cxx
+	<iostream>
+	"setup_sprites.h"
+	"sprite_objects.h"
+	<vector>
+	"render.h"
+
+1555864184 source:/home/pi/codeblocks/Jyskboy/soundmanager.cxx
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_mixer.h>
+	<iostream>
+	<string>
+	<stdio.h>
+	<vector>
+	"soundmanager.h"
+
+1555430069 source:/home/pi/codeblocks/Jyskboy/sprite.cxx
+	<iostream>
+	"sprite.h"
+	<vector>
+
+1555430069 /home/pi/codeblocks/Jyskboy/sprite.h
+	<iostream>
+	<vector>
+
+1559998821 source:/home/pi/codeblocks/Jyskboy/sprite_objects.cxx
+	<iostream>
+	"sprite_objects.h"
+	<vector>
+	"setup_sprites.h"
+
+1580575589 source:/home/pi/codeblocks/Jyskboy/environment.cxx
+	<iostream>
+	<vector>
+	"environment.h"
+	"render.h"
+	"setup_sprites.h"
+	<math.h>
+	<fstream>
+	<sstream>
+	<string>
+	<list>
+	<algorithm>
+
+1580575065 /home/pi/codeblocks/Jyskboy/environment.h
+	<iostream>
+	<vector>
+	"render.h"
+	"champ.h"
+	"game.h"
+
+1580320874 /home/pi/codeblocks/Jyskboy/game.h
+	"buttons.h"
+	"render.h"
+	"soundmanager.h"
+	"physics.h"
+	<chrono>
+	<ctime>
+	<vector>
+	"enemy.h"
+
+1580577020 source:/home/pi/codeblocks/Jyskboy/game.cxx
+	<iostream>
+	<vector>
+	"game.h"
+	<iostream>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<linux/fb.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<vector>
+	"render.h"
+	"champ.h"
+	"sprite_objects.h"
+	"setup_sprites.h"
+	"buttons.h"
+	"soundmanager.h"
+	<wiringPi.h>
+	"environment.h"
+	<time.h>
+	<algorithm>
+	<list>
+	"test.h"
+	<chrono>
+	<ctime>
+
+1572187620 source:/home/pi/codeblocks/Jyskboy/test.cxx
+	"test.h"
+	<iostream>
+	<list>
+	<string>
+	<algorithm>
+
+1572095009 /home/pi/codeblocks/Jyskboy/test.h
+	<iostream>
+	<vector>
+
+1580554976 source:/home/pi/codeblocks/Jyskboy/physics.cxx
+	<iostream>
+	<vector>
+	"render.h"
+	"physics.h"
+	"setup_sprites.h"
+	<cstdlib>
+	<math.h>
+
+1580553798 /home/pi/codeblocks/Jyskboy/physics.h
+	<vector>
+	<iostream>
+
+1580150006 /home/pi/codeblocks/Jyskboy/enemy.h
+	<vector>
+	<iostream>
+	"physics.h"
+	"champ.h"
+
+1580575897 source:/home/pi/codeblocks/Jyskboy/enemy.cxx
+	"enemy.h"
+	"setup_sprites.h"
+	<iostream>
+	"physics.h"
+	<math.h>
+	<cstdlib>
+	"environment.h"
+
