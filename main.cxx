@@ -22,6 +22,12 @@
 #include <wiringPi.h>
 #include "environment.h"
 
+#include <errno.h>
+#include <termios.h>
+
+
+
+
 // main game
 #include "game.h"
 
@@ -48,8 +54,11 @@ int main(int argc, char* argv[])
         game game1(1);
         game1.game_setup();
         game1.game_fbp_clear();
+        game1.serial_start();
+        
         game1.game_loop();
 
+		game1.serial_stop();
         game1.game_close();
         //game1.~game();
     return 0;

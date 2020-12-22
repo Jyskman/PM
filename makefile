@@ -26,7 +26,7 @@ EXTENSION = .cxx
 
 #Combine them into the output file
 #Set your desired exe output file name here
-A.a: $(OBJ)
+PM.a: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
 
 #Cleanup

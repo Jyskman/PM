@@ -25,7 +25,7 @@ bool game_is_running;
 bool initial_config = true;
 long game_loop_start_ms;
 long game_loop_stop_ms;
-long fps = 30;
+long fps = 100;
 long game_sleep_time;
 struct timespec spec;
 float time;
@@ -91,6 +91,14 @@ void animations_run_render_back();
 void update_attacks();
 
 void remove_used_items();
+
+
+//~ configure serial device - ttyACM0
+void serial_start();
+void serial_stop();
+
+
+int serial_port;
 
 };
 

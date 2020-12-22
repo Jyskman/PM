@@ -112,6 +112,7 @@ room_prev = room_current;
     }
 
 
+
 };
 
 game::~game() {
@@ -133,6 +134,20 @@ void game::game_close() {
 
 
 };
+
+void game::serial_start() {
+
+	serial_port = open("/dev/ttyACM0", O_RDWR);
+
+
+};
+
+void game::serial_stop() {
+
+close(serial_port);
+
+};
+
 
 void game::game_setup() {
     setup_sprites(screen);
@@ -1260,7 +1275,7 @@ void game::check_lim_upon_roomswitch() {
 
 void game::game_main(){
 		
-		cout << room_objects.at(room_current).boss_room << "l" << endl;
+		//~ cout << room_objects.at(room_current).boss_room << "l" << endl;
 		
 		room_render_req(room_current, hero, physics_objects.at( physics_current ) ); // in environment
 		
